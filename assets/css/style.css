@@ -1,0 +1,219 @@
+#links{
+	display: flex;
+    list-style: none;
+    font-size: smaller;
+    float: right;
+    margin-right: 300px;
+    margin-top: 10px;
+}
+
+#header{
+    position: relative;
+    background: #ffffff;
+    width: 100%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 45px;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-color: #cccccc;
+    height: 100px;
+}
+
+#Name {
+   position: absolute;
+   bottom: 0;
+   left: 110px;
+   background-color: #4aaaa5;
+    color: white;
+    display: inline;
+    padding: 25px;
+    font-size: x-large;
+    height: : 100px;
+    line-height: 50px;
+    /*margin-top: 10px;/\*/
+    font-weight: bold;
+}
+#footer {
+	position: absolute;
+	bottom: 0;
+	color: lightgrey;
+	background-color: #666666;
+	height: 10%;
+	width: 100%;
+	border-top-style: solid;
+	border-top-width: 10px;
+	border-top-color: #4aaaa5;
+	text-align: center;
+	line-height: 90px;
+	font-size: small;
+}
+
+#entire{
+	width: 960px;
+    position: relative;
+	/*display: inline-flex;*/
+/*    margin: 115px;*/
+}
+
+#propic{
+	width: 128px;
+    float: left;
+    margin-right: 10px;
+}
+
+#connect{
+	position: absolute;
+	top: 40px;
+	right: -200px;
+	width: 250px;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+
+}
+
+#main{
+	position: relative;
+	height: 100%;
+}
+
+#aboutme{
+	position: absolute;
+	left: 110px;
+	top: 40px;
+	background-color: #ffffff;
+	width: 650px;
+	padding: 30px 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	/*float: left;*/
+}
+
+body{
+	background-image: url("../images/intersection.png");
+}
+
+.fonts{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 2em;
+}
+
+#color4aboutme{
+	color: #4aaaa5;
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#connectfont{
+	color: #4aaaa5;
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+input{
+	width: 100%;
+	border-color: lightgrey;
+	border-style: solid;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#messageinput{
+	height: 170px;
+}
+
+#submit{
+	width: 7em;  
+	height: 2.5em;
+	background-color: #4aaaa5;
+	border: none;
+	font-size: large;
+	color: #ffffff;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: lightgrey;
+  font-size: 16px;
+}
+
+#pictext{
+	background-color: #4aaaa5;
+	color: white;
+    padding: 15px 25px;
+    font-size: medium;
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+.picsize{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.pictext{
+	width: 250px;
+	height: 125px;
+	margin: 0px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#rpg{
+	position: absolute;
+	right: 32px;
+	top: 140px;
+}
+
+#trivia{
+	position: absolute;
+	left: 30px;
+	top: 300px;
+}
+
+#rutgers{
+	position: absolute;
+	right: 32px;
+	top: 300px;
+}
+
+#RPS{
+	position: absolute;
+	left: 30px;
+	top: 460px;
+}
+
+#portfoliobox{
+	position: absolute;
+	left: 110px;
+	top: 40px;
+	background-color: #ffffff;
+	width: 650px;
+	height: 600px;
+	padding: 30px 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+}
+
+#inputpadding{
+	padding-left: 10px;
+}
