@@ -217,3 +217,82 @@ hr{
 #inputpadding{
 	padding-left: 10px;
 }
+
+body{
+	padding-bottom: 25px;
+}
+
+@media screen and (max-width: 768px){
+	#entire{
+		width: 768px;
+    position: relative;
+	}
+
+	#Name{
+		position: absolute;
+   		bottom: 0;
+   		left: 10px;}
+
+	#links{
+		margin-right: 10px;
+	}
+
+	#aboutme{
+		position: absolute;
+	left: 50px;
+	top: 40px;
+	width: 500px;
+	}
+
+	#connect{
+		position: absolute;
+		bottom: 0;
+		width: 500px;
+		top: 0;
+	
+	}
+
+	#portfoliobox{
+		position: absolute;
+	left: 50px;
+	top: 40px;
+	width: 500px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	
+	#entire{
+		width: 980px;
+    position: relative;
+	}
+
+	#Name{
+		position: absolute;
+   		bottom: 0;
+   		left: 50px;}
+
+	#links{
+		margin-right: 150px;
+	}
+
+	#aboutme{
+		position: absolute;
+	left: 30px;
+	top: 40px;
+	width: 500px;
+	}
+
+	#connect{
+		width: 200px;
+		right: 50px;
+
+	}
+
+	#portfoliobox{
+		position: absolute;
+	left: 30px;
+	top: 40px;
+	width: 500px;
+	}
+}
